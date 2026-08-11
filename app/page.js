@@ -188,10 +188,9 @@ export default function Home() {
       {/* How It Works */}
       <section className="how-it-works section-padding">
         <div className="container">
-          <div className="section-title text-center" style={{ textAlign: 'center' }}>
-            <span className="subtitle" style={{ color: 'var(--dark-blue)', fontWeight: 700, fontSize: '14px', letterSpacing: '1px', textTransform: 'uppercase' }}>SIMPLE PROCESS</span>
-            <h2 style={{ fontSize: '40px', color: 'var(--dark-blue)', margin: '10px 0' }}>HOW IT WORKS</h2>
-            <p style={{ color: 'var(--text-gray)', maxWidth: '600px', margin: '0 auto' }}>Getting your appliance repaired is quick, simple, and hassle-free in just 4 straightforward steps.</p>
+          <div className="section-title">
+            <h2>How It <span className="red-text">Works</span></h2>
+            <p>Getting your appliance repaired is quick, simple, and hassle-free in just 4 straightforward steps.</p>
           </div>
 
           <div className="process-wrapper">
